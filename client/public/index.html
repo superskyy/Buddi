@@ -31,7 +31,24 @@
     <div class = "parents">
       <div class="user-bar">User</div>
       <div class="video-bar">Video</div>
-      <div class="chat-bar">Chat</div>
+      <div class="chat-bar">
+          <div className="message">
+              <main className ='messages'>
+                <span className="message-username">user123 :</span>
+                <span className="message-content"> Hi there how are you</span>
+                <br>
+                <span className="message-username">user123 : </span>
+                <span className="message-content"> Hi there how are you</span>
+              </main>
+              <footer className="chatbar">
+                <input className="chatbar-username"  name ='user' placeholder="Your Name (Optional)" defaultValue={props.username} onKeyPress  />
+                <input className="chatbar-message" id = 'chatbar-msg' name ='newinput' placeholder="Type a message and hit ENTER" onKeyPress  />
+              </footer>
+          </div>
+
+
+
+      </div>
     </div>
     
     
