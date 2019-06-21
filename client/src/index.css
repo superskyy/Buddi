@@ -12,3 +12,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.parents {
+	 display: flex;
+	flex-direction: row;
+}
+
+.nav-bar {
+	/*position: absolute;*/
+	/*margin: 0;
+  padding: 0;
+  margin-top: 0;
+  top: 0;*/
+  height: 80px;
+  /*display: flex;*/
+	/*flex-direction: row;*/
+	background-color: green;
+}
+
+.chat-bar {
+	/*display: flex;*/
+	width: 35%;
+  /*margin-left:60%;*/
+  height: 600px;
+	background-color: blue;
+}
+
+.video-bar {
+	width: 55%;
+	/*height: 60%;*/
+  /*margin-left: 15%;*/
+	background-color: yellow;
+}
+
+.user-bar {
+	width: 10%;
+/*	height: 60%;*/
+	background-color: grey;
+}
