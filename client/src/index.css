@@ -61,4 +61,20 @@ code {
 .messages{
   height:500px;
 }
+.user-bar {
+  width: 10%;
+/*  height: 60%;*/
+  background-color: grey;
+}
+.user1{
+
+background-color: white;
+border-radius: 2em;
+/* Height: 3em; */
+}
+.user2{
+background-color: white;
+/* height: 3em; */
+border-radius: 2em;
+}
 
