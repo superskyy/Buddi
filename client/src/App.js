@@ -31,7 +31,6 @@ class App extends Component {
           Fetch Data
         </button>        
       </div>
-       <h1>Hello World!</h1>
     );
   }
 }
