@@ -50,3 +50,15 @@ code {
 /*	height: 60%;*/
 	background-color: grey;
 }
+.chatbar-message{
+  width: 300px;
+  height: 50px;
+}
+.send-button{
+  width: 100px;
+  height: 50px;
+}
+.messages{
+  height:500px;
+}
+
